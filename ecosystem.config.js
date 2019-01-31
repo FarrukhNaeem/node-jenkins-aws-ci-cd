@@ -1,7 +1,8 @@
 module.exports = { 
   apps: [{
-    name    : "node-app",
-    script  : "npm"
+    name    : "node-jenkins-aws-ci-cd",
+    script  : "npm",
+    args    : "start"
   }]
 }
 
